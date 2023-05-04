@@ -101,7 +101,7 @@ class CustomTabBarViewController: UIViewController {
         self.navigationItem.rightBarButtonItem = restButton
     }
     @objc func restSettingsBarButtonHandler(_ sender: UIBarButtonItem) {
-        let alert = UIAlertController(title: "BHTwitter", message: BHTBundle.shared().localizedString(forKey: "CUSTOM_TAB_BAR_REST_MESSAGE"), preferredStyle: .alert)
+        let alert = UIAlertController(title: "Memeitizer Twitter", message: BHTBundle.shared().localizedString(forKey: "CUSTOM_TAB_BAR_REST_MESSAGE"), preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: BHTBundle.shared().localizedString(forKey: "YES_BUTTON_TITLE"), style: .default, handler: { _ in
             UserDefaults.standard.removeObject(forKey: "allowed")
             UserDefaults.standard.removeObject(forKey: "hidden")

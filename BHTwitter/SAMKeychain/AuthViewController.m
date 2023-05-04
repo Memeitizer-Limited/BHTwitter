@@ -19,7 +19,7 @@
     [super viewDidLoad];
     LAContext *context = [[LAContext alloc] init];
     if ([self canEvaluateBiometrics]) {
-        [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics localizedReason:@"Touch ID or Face ID is required to use Twitter" reply:^(BOOL success, NSError * _Nullable error) {
+        [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics localizedReason:@"Touch ID or Face ID is required to use Memeitizer Twitter" reply:^(BOOL success, NSError * _Nullable error) {
             if (success) {
                 [[keychain shared] saveDictionary:@{@"isAuthenticated": @YES}];
                 dispatch_async(dispatch_get_main_queue(), ^{
@@ -31,7 +31,7 @@
             }
         }];
     } else if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthentication error:nil]) {
-        [context evaluatePolicy:LAPolicyDeviceOwnerAuthentication localizedReason:@"Passcode is required to use Twitter" reply:^(BOOL success, NSError * _Nullable error) {
+        [context evaluatePolicy:LAPolicyDeviceOwnerAuthentication localizedReason:@"Passcode is required to use Memeitizer Twitter" reply:^(BOOL success, NSError * _Nullable error) {
             if (success) {
                 [[keychain shared] saveDictionary:@{@"isAuthenticated": @YES}];
                 dispatch_async(dispatch_get_main_queue(), ^{

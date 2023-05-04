@@ -1,10 +1,10 @@
 Package: com.bandarhl.BHTwitter
-Name: BHTwitter
+Name: Memeitizer Twitter
 Version: 3.9.1
-Description: Awesome tweak for Twitter
+Description: Awesome tweak for Memeitizer Twitter
 Section: Tweaks
 Depends: firmware (>= 13.0), mobilesubstrate, ws.hbang.common (>= 1.17)
 Priority: optional
 Architecture: iphoneos-arm
-Author: BandarHelal
-Maintainer: BandarHelal
+Author: Memeitizer Limited
+Maintainer: Memeitizer Limited

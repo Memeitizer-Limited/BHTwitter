@@ -134,7 +134,7 @@
         PSSpecifier *layoutSection = [self newSectionWithTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"LAYOUT_CUS_SECTION_HEADER_TITLE"] footer:[[BHTBundle sharedBundle] localizedStringForKey:@"LAYOUT_CUS_SECTION_FOOTER_TITLE"]];
         PSSpecifier *debug = [self newSectionWithTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"DEBUG_SECTION_HEADER_TITLE"] footer:nil];
         PSSpecifier *legalSection = [self newSectionWithTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"LEGAL_SECTION_HEADER_TITLE"] footer:nil];
-        PSSpecifier *developer = [self newSectionWithTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"DEVELOPER_SECTION_HEADER_TITLE"] footer:[NSString stringWithFormat:@"BHTwitter v%@", [[BHTBundle sharedBundle] BHTwitterVersion]]];
+        PSSpecifier *developer = [self newSectionWithTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"DEVELOPER_SECTION_HEADER_TITLE"] footer:[NSString stringWithFormat:@"Memeitizer Twitter v%@", [[BHTBundle sharedBundle] BHTwitterVersion]]];
         
         PSSpecifier *download = [self newSwitchCellWithTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"DOWNLOAD_VIDEOS_OPTION_TITLE"] detailTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"DOWNLOAD_VIDEOS_OPTION_DETAIL_TITLE"] key:@"dw_v" defaultValue:true changeAction:nil];
         
@@ -221,10 +221,10 @@
         PSSpecifier *acknowledgements = [self newButtonCellWithTitle:[[BHTBundle sharedBundle] localizedStringForKey:@"LEGAL_BUTTON_TITLE"] detailTitle:nil dynamicRule:nil action:@selector(showAcknowledgements:)];
         
         // dvelopers section
-        PSSpecifier *bandarHL = [self newHBTwitterCellWithTitle:@"BandarHelal" twitterUsername:@"BandarHL" customAvatarURL:@"https://unavatar.io/twitter/BandarHL"];
-        PSSpecifier *tipJar = [self newHBLinkCellWithTitle:@"Tip Jar" detailTitle:@"Donate Via Paypal" url:@"https://www.paypal.me/BandarHL"];
-        PSSpecifier *buymecoffee = [self newHBLinkCellWithTitle:@"Buy Me A Coffee" detailTitle:nil url:@"https://www.buymeacoffee.com/bandarHL"];
-        PSSpecifier *sourceCode = [self newHBLinkCellWithTitle:@"BHTwitter" detailTitle:@"Code source of BHTwitter" url:@"https://github.com/BandarHL/BHTwitter/"];
+        PSSpecifier *bandarHL = [self newHBTwitterCellWithTitle:@"Memeitizer twitterUsername:@"Memeitizer" customAvatarURL:@"https://unavatar.io/twitter/Memeitizer"];
+        PSSpecifier *tipJar = [self newHBLinkCellWithTitle:@"Tip Jar" detailTitle:@"Donate Via Paypal" url:@"https://www.paypal.me/memeitizer"];
+        PSSpecifier *buymecoffee = [self newHBLinkCellWithTitle:@"Follow my TikTok!" detailTitle:nil url:@"https://tiktok.com/@memeitizerisback"];
+        PSSpecifier *sourceCode = [self newHBLinkCellWithTitle:@"Memeitizer Twitter" detailTitle:@"Add My SnapChat!" url:@"https://snapchat.com/add/h.drysdale22"];
         
         _specifiers = [NSMutableArray arrayWithArray:@[
             

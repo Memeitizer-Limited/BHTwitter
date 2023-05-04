@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5020A87324E758E00080F292"
                BuildableName = "BHTwitter.dylib"
-               BlueprintName = "BHTwitter"
+               BlueprintName = "Memeitizer Twitter"
                ReferencedContainer = "container:BHTwitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -52,7 +52,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5020A87324E758E00080F292"
             BuildableName = "BHTwitter.dylib"
-            BlueprintName = "BHTwitter"
+            BlueprintName = "Memeitizer Twitter"
             ReferencedContainer = "container:BHTwitter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
